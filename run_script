@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+tbl sys.caps | nroff -mm -Tlp | echo

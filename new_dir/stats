@@ -1,0 +1,12 @@
+#Программа stats выводит дату время и текущий рабочий каталог
+
+
+
+echo The current date and time is:
+date #дата
+echo The number of users on the system is:
+who | wc -l #количество пользвателей
+echo
+echo Your current working directory is:
+pwd 	#текущий рабочий каталог
+ls $1 #содержимое текущег рабочего каталога
